@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet UINavigationItem *navbar;
+
 @property (weak, nonatomic) IBOutlet UILabel *titlelabel;
 @property (weak, nonatomic) IBOutlet UILabel *subtitlelabel;
 
